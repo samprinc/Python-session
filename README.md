@@ -72,8 +72,8 @@ class LivestreamViewSet(viewsets.ModelViewSet):
 ### 1️⃣ Clone the repo
 
 ```bash
-git clone <your-repo-url>
-cd your-project
+git clone https://github.com/samprinc/Python-session.git
+cd Test
 ```
 
 ### 2️⃣ Create a virtual environment
