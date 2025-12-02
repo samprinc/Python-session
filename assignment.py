@@ -82,6 +82,7 @@ pdf.body_text("You will build a React frontend that interacts with your existing
 
 pdf.set_font('Arial', 'B', 11)
 pdf.cell(0, 8, "Deadline: Friday, 26th December 2025", 0, 1)
+
 pdf.ln(5)
 
 pdf.section_title("2. Technical Requirements: Backend")
