@@ -5,7 +5,7 @@ from .models import Sermon, Event, Ministry, HomepageContent, Livestream
 class SermonSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sermon
-        fields = '_all__'
+        fields = '__all__'
 
 
 class EventSerializer(serializers.ModelSerializer):
